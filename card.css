@@ -8,7 +8,7 @@
 .container {
     width: 100%;
     height: 100vh;
-    background-image: url("image/back.png");
+    background-image: url("image/back.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -19,7 +19,7 @@
 .card {
     width: 90%;
     max-width: 440px;
-    color: #fff;
+    color: #737167;
     text-align: center;
     padding: 50px 35px;
     border: 1px solid rgb(225, 255, 255, 0.3);
@@ -54,7 +54,7 @@
 }
 
 .card .links img:hover {
-    background: burlywood;
+    background: white;
 }
 
 .btn {
@@ -63,7 +63,7 @@
     font-size: 18px;
     font-weight: 500;
     background: #fff;
-    color: #ff01cf;
+    color: #737167;
     padding: 10px 30px;
     border-radius: 30px;
     margin: 30px 0 10px;
