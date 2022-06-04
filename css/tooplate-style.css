@@ -21,7 +21,7 @@ body {
   color: #5b5b5b;
   font-size: 14px;
   font-weight: bold;
-  padding: 8px 16px;
+  padding: 5px 7x;
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
@@ -481,8 +481,48 @@ b, strong {
   }
 
   .about-image {
-    margin-top: 4em;
+    margin-top: 1em;
+    width: 230px;
+   animation: floaty 1.8s infinite alternate;
+   margin-left: 50px;
+   margin-right: 50px;
   }
+
+  .shadow {
+    width: 130px;
+   height: 24px;
+   background-color: rgba(56, 33, 33, 0.16);
+   margin: 0 auto;
+   border-radius: 50%;
+   filter: blur(7px);
+   animation: shadow 1.8s infinite alternate;
+  }
+
+  @keyframes floaty {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+  }
+
+  @keyframes shadow {
+    0% {
+      transform: scale(1, 1);
+    }
+    100% {
+      transform: scale(.85, .85);
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .raw {
+      padding-top: 7rem;
+    }
+  }
+
+  
 
   .mobile-mt-2,
   .contact-form {
